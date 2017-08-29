@@ -1,0 +1,17 @@
+.slider {
+  max-height: 800px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slider #slider__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slider #slider__list li{
+  width: 100%;
+}
