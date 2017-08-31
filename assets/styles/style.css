@@ -4,14 +4,52 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 
 .slider #slider__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-transition: 3s;
+  transition: 3s;
+  position: relative;
 }
 
 .slider #slider__list li{
   width: 100%;
+}
+
+#slider__bullets {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.bullet {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border: 1px solid green;
+  display: block;
+  margin: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.bullet:hover {
+  background-color: green;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
